@@ -21,10 +21,7 @@ To close and remove the container::
 
 Building image
 ==============
-Create latest sanrep/gnumeric image::
+Create latest ``sanrep/gnumeric`` image::
 
     $ docker build -t sanrep/gnumeric:latest .
-
-Push the created image to dockerhub::
-
     $ docker push sanrep/gnumeric
